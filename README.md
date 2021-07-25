@@ -1,10 +1,9 @@
 ## Trabajo práctico final de la asignatura DCI ##
 Este repositorio contiene el trabajo práctico final para la asignatura de Diseño de Circuitos Impresos de la carrera de posgrado de FIUBA.
 
-* Autor: XXXXCOMPLETARXXXX
-* Título corto del trabajo:  XXXXCOMPLETARXXXX
-* Descripción:  XXXXCOMPLETARXXXX
-
+* Autor: JOAQUIN ULLOA
+* Título corto del trabajo:  Réplica Módulo Ethernet W5100 Mini
+* Descripción:  La placa tiene un regulador de tensión, por lo que puede se pueden usar tensiones de entrada de 5 V a 12 V. Los pines de señal admiten niveles de 3,3 V y 5 V. El Módulo Ethernet tiene un conector RJ-45 estándar, con un transformador de línea integrado.
 
 ## Licencia de este trabajo ##
 XXXMENCIONAR ACÁ LA LICENCIAXXX (Editar este párrafo) 
