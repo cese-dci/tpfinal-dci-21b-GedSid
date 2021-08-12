@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "G:\\My Drive\\FIUBA\\CESE\\DCI\\tpfinal-dci-21b-GedSid\\pcb\\eth_shield_W5100\\eth_shield_W5100.sch")
-    (date "09/08/2021 21:50:02")
+    (date "12/08/2021 20:39:38")
     (tool "Eeschema (5.1.10)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -364,7 +364,21 @@
       (datasheet ~)
       (libsource (lib Mechanical) (part Fiducial) (description "Fiducial Marker"))
       (sheetpath (names /) (tstamps /))
-      (tstamp 611346BF)))
+      (tstamp 611346BF))
+    (comp (ref H2)
+      (value MountingHole)
+      (footprint MountingHole:MountingHole_2.1mm)
+      (datasheet ~)
+      (libsource (lib Mechanical) (part MountingHole) (description "Mounting Hole without connection"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 6116774E))
+    (comp (ref H1)
+      (value MountingHole)
+      (footprint MountingHole:MountingHole_2.1mm)
+      (datasheet ~)
+      (libsource (lib Mechanical) (part MountingHole) (description "Mounting Hole without connection"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 61167DEA)))
   (libparts
     (libpart (lib Connector_Generic) (part Conn_02x05_Odd_Even)
       (description "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)")
@@ -567,6 +581,14 @@
       (fields
         (field (name Reference) FID)
         (field (name Value) Fiducial)))
+    (libpart (lib Mechanical) (part MountingHole)
+      (description "Mounting Hole without connection")
+      (docs ~)
+      (footprints
+        (fp MountingHole*))
+      (fields
+        (field (name Reference) H)
+        (field (name Value) MountingHole)))
     (libpart (lib Regulator_Linear) (part LM1117-1.8)
       (aliases
         (alias LM1117-2.5)
