@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name footprints)(type KiCad)(uri "G:/My Drive/FIUBA/CESE/DCI/tpfinal-dci-21b-GedSid/pcb/libs/MC33269ST/footprints.pretty")(options "")(descr ""))
+  (lib (name SI-52008-F)(type KiCad)(uri "G:/My Drive/FIUBA/CESE/DCI/tpfinal-dci-21b-GedSid/pcb/libs/SI-52008-F")(options "")(descr ""))
+  (lib (name HR911105A)(type KiCad)(uri "G:/My Drive/FIUBA/CESE/DCI/tpfinal-dci-21b-GedSid/pcb/libs/HR911105A")(options "")(descr ""))
+)
